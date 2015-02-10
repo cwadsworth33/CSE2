@@ -1,5 +1,5 @@
 //Homework 3 CSE 002
-//Bicycle.java
+//Root.java
 //Christian Wadsworth 2/10/15
 
 import java.util.Scanner;//Import scanner

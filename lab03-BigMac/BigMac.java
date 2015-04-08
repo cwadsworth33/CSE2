@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class BigMac {
 public static void main (String[] args){
     Scanner myScanner;
@@ -20,6 +19,5 @@ public static void main (String[] args){
     System.out.println("The total cost of " +nBigMacs
  +" BigMacs, at $"+bigMac$ +" per bigMac, with a" +  
  " sales tax of "+ (int)(taxRate*100) + "%, is $"+dollars+'.'+dimes+pennies);
-     
 }
 }

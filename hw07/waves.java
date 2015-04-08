@@ -3,16 +3,16 @@
 // waves.java
 // 3/17/15
 
-import java.util.Scanner;
-public class waves{
-    public static void main(String[] args){
-    Scanner myScanner;
-    myScanner = new Scanner(System.in);
+import java.util.Scanner;//import scanner
+public class waves{//create class
+    public static void main(String[] args){//main method
+    Scanner myScanner;//initialize scanner myscanner
+    myScanner = new Scanner(System.in);//create new scanner
     
-    int number = 0;
-    while(number<1 || number >30){
-        System.out.print("Enter a number from 1 to 30: ");
-    number=myScanner.nextInt();}
+    int number = 0;//initialize integer number as 0 
+    while(number<1 || number >30){//while loop to throw out inputs not in the accepted range
+        System.out.print("Enter a number from 1 to 30: ");//Prompt the user
+    number=myScanner.nextInt();//number is number taken from user by scanner}
     
     ///////////////////////////////////////////////////////////////// for loops
     System.out.println("For loops"); // title 

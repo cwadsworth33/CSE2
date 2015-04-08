@@ -3,7 +3,7 @@ public class waves{//create class
     public static void main(String[] args){//main method
     Scanner myScanner;//initialize scanner myscanner
     myScanner = new Scanner(System.in);//create new scanner
-    int n=myScanner.nextInt();
+    int n=myScanner.nextInt();//n as scanner variable
     factorial(n);
     print(sum);
     

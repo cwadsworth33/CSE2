@@ -1,15 +1,16 @@
-import java.util.Random;
-import java.util.*;
+
 public class Testing{
-int [] array;
-array = new int[15];
-Random rnd = new Random();
-    for (int i = 14; i > 0; i--)
-    {
-      int index = rnd.nextInt(i + 1);
-      // Simple swap
-      int a = array[index];
-      array[index] = array[i];
-      array[i] = a;
+    int [] array;
+    array = new int[15];
+    for(int i=0; i<15; i++){
+     array[i]=i;
+    }
+    int [] memory;
+    memory = new int[15];
+    int random = 0;
+    for(int j=0; j<15; j++){
+        random = (int)Math.random()*15;
+        array[j]=given[random];
+    
     }
 }

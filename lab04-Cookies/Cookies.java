@@ -1,18 +1,18 @@
 
 import java.util.Scanner;
 public class Cookies{
-    public static void main(String [] args){
-        Scanner myScanner;
+    public static void main(String [] args){ //main method
+        Scanner myScanner; //new scanner
         myScanner = new Scanner(System.in);
         System.out.println("Please enter the number of cookies");
         int numberCookies = myScanner.nextInt();
-        if(numberCookies < 0){
+        if(numberCookies < 0){ //invalid number of cookies
             System.out.println("Invalid number of cookies.");
             return;
         }
         System.out.println("Please enter the number of people.");
         int numberPeople = myScanner.nextInt();
-        if(numberPeople<0){
+        if(numberPeople<0){  //
             System.out.println("Invalid number of people.");
             return;
         }

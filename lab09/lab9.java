@@ -45,6 +45,8 @@ public class lab9{
             case 10: random = 9;
             output = "noble";
             break;
+            default: output = "strange";
+            break;
             
         }
         return output;
@@ -82,6 +84,8 @@ public class lab9{
             break;
             case 10: random = 9;
             output = "mouse";
+            break;
+            default: output = "goose";
             break;
             
         }
@@ -121,6 +125,8 @@ public class lab9{
             case 10: random = 9;
             output = "read";
             break;
+            default: output = "kicked";
+            break;
             
         }
         return output;
@@ -158,6 +164,8 @@ public class lab9{
             break;
             case 10: random = 9;
             output = "paper";
+            break;
+            default: output = "desk";
             break;
             
         }
